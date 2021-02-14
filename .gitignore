@@ -1,0 +1,9 @@
+/*
+
+!.gitignore
+
+/Templates/*
+
+!/Templates
+!/Templates/Assets
+!/Templates/ProjectSettings
