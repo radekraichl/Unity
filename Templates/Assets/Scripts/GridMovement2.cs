@@ -20,13 +20,11 @@ public class GridMovement2 : MonoBehaviour
 	private bool canMove;
 	private bool canRotate;
 
-
 	void Start()
 	{
 		currentDirection = rotationUp;
 		destination = transform.position;
 	}
-
 
 	private void Update()
 	{
@@ -82,7 +80,6 @@ public class GridMovement2 : MonoBehaviour
 		// Posun hráče
 		transform.position = Vector3.MoveTowards(transform.position, destination, speed * Time.deltaTime);
 	}
-
 
 	private readonly float rayLength = 1f;
 	private bool Valid()
